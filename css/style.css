@@ -353,10 +353,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #18181b;
+  background-color: white;
   padding: 5px 0px;
   z-index: 999;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header-inner {
@@ -396,7 +396,7 @@ body {
   margin-left: 20px;
   font-weight: 600;
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 .header-center {
@@ -412,7 +412,7 @@ body {
 }
 
 .search-btn svg {
-  fill: white;
+  fill: black;
   width: 24px;
   height: 24px;
 }
@@ -420,18 +420,15 @@ body {
 .search-window {
   outline: none;
   border: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   background-clip: padding-box;
   line-height: 1.5;
-  border-style: solid;
-  border-width: var(--border-width-input);
-  border: 1px solid black;
   color: white;
   padding: 0.5rem 1rem !important;
-  height: 18px;
+  height: 19.5px;
   border-radius: 6px 0px 0px 6px;
   width: 270px;
 }
@@ -448,15 +445,12 @@ body {
           align-items: center;
   outline: none;
   border: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   background-clip: padding-box;
   line-height: 1.5;
-  border-style: solid;
-  border-width: var(--border-width-input);
-  border: 1px solid black;
   color: white;
   width: 34px;
   height: 36px;
@@ -487,10 +481,10 @@ body {
   font-weight: 700;
   width: 58px;
   height: 30px;
-  color: white;
+  color: black;
   border: none;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 5px;
 }
 
@@ -531,14 +525,13 @@ body {
   top: 0;
   left: 0;
   display: block;
-  background: #18181b;
+  background-color: #f7f7f8;
   width: 230px;
   height: 100%;
   z-index: 998;
   padding: 0px 15px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  border-right: 1px solid black;
 }
 
 .left-bar__top {
@@ -555,7 +548,7 @@ body {
 }
 
 .left-bar__title {
-  color: white;
+  color: black;
   font-weight: 600;
   font-size: 14px;
 }
@@ -579,7 +572,7 @@ body {
 .left-bar__open svg {
   width: 20px;
   height: 20px;
-  fill: white;
+  fill: black;
 }
 
 .right-bar__open {
@@ -601,7 +594,7 @@ body {
 .right-bar__open svg {
   width: 20px;
   height: 20px;
-  fill: white;
+  fill: black;
 }
 
 .left-bar_hidden {
@@ -629,7 +622,7 @@ body {
 
 .streamer {
   margin-top: 20px;
-  color: white;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -650,12 +643,12 @@ body {
 
 .streamer-name {
   font-weight: 600;
-  color: #dedee3;
+  color: black;
 }
 
 .streamer-span {
   font-size: 14px;
-  color: #adadb8;
+  color: black;
   font-weight: 400;
 }
 
@@ -696,14 +689,14 @@ body {
   top: 50px;
   right: 0;
   display: block;
-  background: #1f1f23;
+  background-color: white;
   width: 230px;
   height: 100%;
   z-index: 998;
   padding: 0px 15px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  border-left: 1px solid black;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .left-bar_open {
@@ -735,14 +728,14 @@ body {
 
 .right-bar__title {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 14px;
   font-weight: 400;
 }
 
 .chat-bar__title {
   margin-top: 300px;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -801,7 +794,7 @@ body {
 .info {
   max-width: 1355px;
   margin: -32px auto 0px auto;
-  background: #1f1f23;
+  background: #f7f7f8;
   color: white;
   padding: 20px;
   width: 100%;
@@ -877,12 +870,13 @@ body {
 .info-nick {
   font-size: 18px;
   font-weight: 600;
-  color: white;
+  color: black;
 }
 
 .info-text {
   margin-top: 10px;
   font-weight: 600;
+  color: black;
 }
 
 .info-pers {
@@ -924,9 +918,9 @@ body {
       align-items: center;
   font-size: 12px;
   padding: 0px 0.8rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.05);
   height: 2em;
   border-radius: 10px;
 }
@@ -972,8 +966,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: black;
   border: none;
   outline: none;
   font-weight: 700;
@@ -988,7 +982,7 @@ body {
 }
 
 .info-sub svg {
-  fill: white;
+  fill: black;
 }
 
 .info-sub_img {
@@ -996,7 +990,7 @@ body {
 }
 
 .online {
-  color: #ff8280;
+  color: #971311;
   font-weight: 600;
   font-size: 13px;
   line-height: 1.5;
@@ -1020,7 +1014,7 @@ body {
 }
 
 .online-img {
-  fill: #ff8280;
+  fill: #971311;
   margin-right: 3px;
 }
 
@@ -1031,7 +1025,7 @@ body {
 }
 
 .download svg {
-  fill: white;
+  fill: black;
   width: 20px;
   height: 20px;
 }
@@ -1045,7 +1039,7 @@ body {
 }
 
 .crops svg {
-  fill: white;
+  fill: black;
   width: 20px;
   height: 20px;
 }
@@ -1064,7 +1058,7 @@ body {
 .info-center {
   max-width: 905px;
   padding: 40px;
-  background-color: #18181b;
+  background-color: white;
   border-radius: 0.4rem !important;
   margin: 30px auto;
   display: -webkit-box;
@@ -1079,18 +1073,19 @@ body {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
+  color: black;
 }
 
 .info-followers {
   font-size: 14px;
   font-weight: 600;
-  color: #adadb8;
+  color: black;
 }
 
 .info-text.mod {
   font-size: 14px;
   line-height: 1.5;
-  color: #efeff1;
+  color: black;
 }
 
 .info-link {
@@ -1141,6 +1136,7 @@ body {
   font-size: 13px;
   margin-bottom: 10px;
   line-height: 1.5;
+  color: black;
 }
 
 .info-bottom_item-list {
@@ -1152,18 +1148,22 @@ body {
   font-size: 13px;
   margin-bottom: 10px;
   line-height: 1;
+  color: black;
 }
 
 .shorts-top {
+  color: black;
   margin-top: 20px;
 }
 
 .storts-top_title {
   font-size: 13px;
   line-height: 1.5;
+  color: black;
 }
 
 .shorts-bottom {
+  color: black;
   margin-top: 10px;
 }
 
@@ -1174,6 +1174,7 @@ body {
 .shorts-top_text {
   font-size: 13px;
   line-height: 1.5;
+  color: black;
 }
 
 .shorts-top_text:not(:last-child) {
@@ -1216,6 +1217,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 1580px) {
+  .video-responsive {
+    width: 67%;
+  }
+}
+
 @media only screen and (max-width: 1500px) {
   .info {
     -ms-flex-pack: distribute;
@@ -1228,6 +1235,12 @@ body {
   .info-bottom {
     -ms-grid-columns: 420px;
         grid-template-columns: 420px;
+  }
+}
+
+@media only screen and (max-width: 1470px) {
+  .video-responsive {
+    width: 65%;
   }
 }
 
